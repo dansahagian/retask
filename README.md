@@ -11,7 +11,7 @@ It doesn't have any dependencies other than the standard library and was written
 - Clone the repo: `git clone git@github.com:dansahagian/retask.git`
 - Creat a config.py: `cp template_config.py config.py`
 - Update `PATH_TO_DAILY_DIR` in config.py
-- Update `TODOS` in config.py
+- Update `TASKS` in config.py
 - Run `python3 main.py`
 
 ## Task Configuration
