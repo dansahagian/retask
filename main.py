@@ -1,5 +1,3 @@
-#! /Users/dan/d/code/retodo/venv/bin/python3
-
 from datetime import date
 from enum import Enum
 from pathlib import Path
