@@ -1,10 +1,16 @@
 # Retask
 
-I use Obsidian and wanted a simple way to add my recurring tasks to my daily file. There is likely a plugin for this, but it will inevitably do more than I need, and I'm trying to keep my plugins to a minimum. This isn't something I would go add a one-off task to as it's cumbersome and easier to add to my calendar. I'm going to use this for scheduled recurring tasks that I need to do personally or around the house.
+## Why Retask
+- Wanted a simple way to add recurring tasks to my daily markdown file in Obsidian
+- Didn't want to use a plugin that does several things or required me to change how I organize notes
 
-It doesn't have any dependencies other than the standard library and was written with Python 3.11.5. It probably works with other recent versions, but I didn't test it.
+## About
+- Written with Python 3.11.5, but likely works with other recent versions
+- No dependencies and only requires the Standard Library
+- Works on macOS, probably Linux, and no idea on Windows
 
 ## Disclaimer
+- The tool shouldn't be destructive and will only append if it finds a daily file.
 - Please make sure this works the way you want it to with something non-critical before you expand its use. I don't want anyone missing their daily medication or something important. This is a hobby script, please use at your own risk.
 
 ## Setup
