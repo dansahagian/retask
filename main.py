@@ -23,7 +23,7 @@ def is_due_today(today: date, task: Task) -> bool:
         return delta_days % 7 == 0
     if task.interval_type == "m" and today.day == task.start_date.day:
         return True
-    return delta_days == 0
+    return delta_days >= 0
 
 
 def generate_tasks(today: date, tasks: Tuple[Tuple[str, int, str, str]]) -> List[Task]:
